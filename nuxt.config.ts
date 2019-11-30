@@ -13,10 +13,10 @@ const config: Configuration = {
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
-      }
+        content: process.env.npm_package_description || '',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
   /*
    ** Customize the progress-bar color
@@ -36,14 +36,14 @@ const config: Configuration = {
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    '@nuxt/typescript-build'
+    '@nuxt/typescript-build',
   ],
   /*
    ** Nuxt.js modules
    */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
   ],
   /*
    ** Axios module configuration
@@ -57,8 +57,8 @@ const config: Configuration = {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
-  }
+    extend(_config, _ctx) {},
+  },
 }
 
 export default config
