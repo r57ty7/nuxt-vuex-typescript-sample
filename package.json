@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.7.4",
+    "@marp-team/marp-cli": "^0.16.2",
     "@nuxt/typescript-runtime": "^0.2.5",
     "@nuxtjs/axios": "^5.3.6",
     "nuxt": "^2.0.0",
